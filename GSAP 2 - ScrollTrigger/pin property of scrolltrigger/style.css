@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(150, 170, 255);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(253, 161, 161);
+}
+
+#page2 img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+}
